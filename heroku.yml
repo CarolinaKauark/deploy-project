@@ -1,0 +1,7 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: node index.js
+
+  # Se o comando run não for adicionado ao heroku.yml, por padrão ele utiliza o CMD especificado no Dockerfile.
